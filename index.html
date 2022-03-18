@@ -4,34 +4,79 @@
     <title>Trevor's Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./.assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
   <body>
       <!-- Navigation -->
       <header>
+          <div class="name">
           <h1>
-              <a href="/">Trevor Snell</a>
+              <a href="">Trevor Snell</a>
           </h1>
+          <img src="./assets/luffy.jpg">
+          
           <nav>
               <ul>
                   <li>
-                      <a href="about-me">About Me</a>
+                      <a href="#about-me">About Me</a>
                   </li>
                   <li>
-                      <a href="work">Work</a>
+                      <a href="#work">Work</a>
                   </li>
                   <li>
-                      <a href="contact-me">Contact Me</a>
+                      <a href="#contact-me">Contact Me</a>
                   </li>
                   <li>
-                      <a href="resume">Resume</a>
+                      <a href="#resume">Resume</a>
                   </li>
               </ul>
           </nav>
+          </div>
       </header>
       <section class="hero">
           <div class="hero-cta">
-              <h2>Cool Subtitle Here</h2>
+              <h2>One Piece!</h2>
+          </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about-me">
+          <div class="about-title">
+              <h3>About Me</h3>
+                <div class="about">
+              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic alias obcaecati magni numquam consequatur magnam, harum praesentium ea culpa! Inventore non tempora libero asperiores architecto ipsa aut vitae ex voluptas.</p>
+         </div>
+          </div>
+      </section>
+    <!-- Work Section -->
+      <section id="work">
+          <div class="work-title">
+              <h3>Work</h3>
+              <div class="work-area">
+                <a href="https://trevors2001.github.io/run-buddy/">
+                <img src="./assets/hero1-bg.jpg" alt="Run Buddy Logo" 
+                width="500px" height="500px">
+                </a>
+
+                <div class="work-info">
+                    <p>Run Buddy</p>
+                </div>
+              </div>
+          </div>
+      </section>
+      <!-- Contact Section -->
+      <section id="contact-me" class="contact">
+          <div class="flex-row">
+              <h2>Contact Me</h2>
+          </div>
+
+          <div class="contact-info">
+              <div class="phone">
+              <p>Phone : 555-555-5555</p>
+              </div>
+              <div class="email">
+                  <p>Email: <a href="mailto:someemail@email.com">someemail@email.com</a></p>
+              </div>
           </div>
       </section>
   </body>
