@@ -65,6 +65,8 @@ header nav ul li a:hover{
 }
 .hero{
     background-image: url("../onepiece.jpg");
+    object-fit: fill;
+    height:400px;
     background-size:cover;
     display:flex;
     justify-content: center;
